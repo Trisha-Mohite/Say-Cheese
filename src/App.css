@@ -20,12 +20,12 @@
   position: absolute;
   left: 39.8%;
   top: 34.8%;
-  z-index: 40;
+  z-index: 60;
   width: 18%;
   aspect-ratio: 1.1;
   overflow: hidden;
-  opacity: .9;
-  mix-blend-mode: multiply;
+  opacity: 1;
+  mix-blend-mode: normal;
   transform: rotate(-7deg);
   transform-origin: center;
   pointer-events: none;
@@ -40,7 +40,7 @@
   background: url("/art/single-cheese.svg") no-repeat;
   background-position: 23% 7%;
   background-size: 100% auto;
-  filter: saturate(1.18) hue-rotate(-8deg) brightness(1.02);
+  filter: saturate(1.28) hue-rotate(-7deg) brightness(1.08);
 }
 .cover-opening-statement {
   position: absolute;
