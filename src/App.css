@@ -18,16 +18,29 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
-  left: 36.8%;
-  top: 48.3%;
+  left: 48.7%;
+  top: 43.8%;
   z-index: 40;
-  width: 30%;
-  height: auto;
-  opacity: .96;
-  mix-blend-mode: normal;
-  transform: rotate(-11deg);
+  width: 10.2%;
+  aspect-ratio: 1.1;
+  overflow: hidden;
+  opacity: .78;
+  mix-blend-mode: multiply;
+  transform: rotate(-8deg);
   transform-origin: center;
   pointer-events: none;
+}
+.hand-corner-cheese::before {
+  content: "";
+  position: absolute;
+  left: -78%;
+  top: -16%;
+  width: 330%;
+  height: 330%;
+  background: url("/art/single-cheese.svg") no-repeat;
+  background-position: 23% 7%;
+  background-size: 100% auto;
+  filter: saturate(.86) hue-rotate(-8deg) brightness(1.08);
 }
 .cover-opening-statement {
   position: absolute;
@@ -156,9 +169,9 @@
     font-size: clamp(18px, 5.6vw, 34px);
   }
   .hand-corner-cheese {
-    left: 34%;
-    top: 48%;
-    width: 42%;
+    left: 47%;
+    top: 43%;
+    width: 14%;
   }
 }
 

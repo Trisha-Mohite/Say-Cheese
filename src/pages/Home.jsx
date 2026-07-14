@@ -44,7 +44,7 @@ function Home() {
           <img className="left-cheese left-cheese-mid" src="./art/cheeses.svg" alt="" />
           <img className="left-cheese left-cheese-bottom" src="./art/cheeses.svg" alt="" />
         </div>
-        <img className="hand-corner-cheese" src="./art/single-cheese.svg" alt="" aria-hidden="true" />
+        <span className="hand-corner-cheese" aria-hidden="true" />
         <div className="cover-opening-statement">
           <p>Everyone says it before a photo.</p>
           <p>Eat it without a second thought.</p>
