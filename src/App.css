@@ -74,11 +74,46 @@
 .type-grid, .type-grid article { border-color: var(--line); }
 .type-grid b { color: #ff2875; }
 .type-grid p { color: #625850; }
+.opening-section {
+  display: grid !important;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  min-height: 100vh;
+  align-items: center;
+}
+.opening-section > :not(.opening-statement) {
+  display: none !important;
+}
+.opening-statement {
+  grid-column: 4 / 10;
+  text-align: center;
+  font-family: Manrope, Arial, sans-serif;
+  font-size: clamp(30px, 4.45vw, 76px);
+  font-weight: 800;
+  line-height: 1.04;
+  color: var(--ink);
+}
+.opening-statement p {
+  margin: 0;
+}
+.opening-statement span {
+  color: #ff2875;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.18em;
+}
 
 @media(max-width:700px){
   .site-shell {
     background-attachment: scroll, scroll, scroll;
     background-size: auto 120vh, auto 230vh, cover;
+  }
+  .opening-section {
+    min-height: 78vh;
+  }
+  .opening-statement {
+    grid-column: 2 / 10;
+    font-size: clamp(28px, 10vw, 48px);
   }
 }
 

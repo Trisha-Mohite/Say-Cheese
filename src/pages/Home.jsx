@@ -54,7 +54,14 @@ function Home() {
           <div className="hero-cheese" aria-hidden="true"><span /><span /><span /><b>●</b><b>●</b><b>●</b></div>
         </section>
 
-        <section className="section intro-grid">
+        <section className="section intro-grid opening-section">
+          <div className="opening-statement">
+            <p>Everyone says it before a photo.</p>
+            <p>Eat it without a second thought.</p>
+            <p>It's on almost every plate on earth.</p>
+            <p>39.9 pounds a year, per person, and counting.</p>
+            <p>This is <span>cheese</span> mapped, sliced, and visualized.</p>
+          </div>
           <div><p className="eyebrow">01 — the familiar</p><h2>WE KNOW<br />CHEESE FOR</h2></div>
           <p className="body-copy">Comfort. Celebration. Craft. Cheese can be fresh and milky, rich and stretchy, salty and sharp, or deeply aged. Its character changes with the milk, microbes, moisture and time behind it.</p>
           <div className="known-for"><span>Pizza night</span><span>Cheese boards</span><span>Family recipes</span><span>Regional pride</span></div>
