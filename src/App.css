@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root { --ink:#27201c; --cream:#fff7db; --paper:#fff7db; --cheese:#f6bf3f; --orange:#e26b26; --rose:#edb4a9; --line:rgba(39,32,28,.16); }
+* { box-sizing: border-box; } body { margin:0; background:#fff7db; color:var(--ink); font-family:Manrope, Arial, sans-serif; } .site-shell { overflow:hidden; } .masthead, footer { padding:18px max(28px, 5vw); border-bottom:1px solid var(--line); display:flex; justify-content:space-between; font:11px "DM Mono", monospace; letter-spacing:.09em; } .hero-section, .section { padding:clamp(62px, 10vw, 144px) max(28px, 9vw); } .hero-section { min-height:680px; position:relative; background:transparent; } .eyebrow { margin:0 0 18px; font:11px "DM Mono", monospace; letter-spacing:.1em; text-transform:uppercase; } h1,h2,h3 { margin:0; font-weight:400; } h1,h2 { font-family:"DM Serif Display", Georgia, serif; line-height:.83; letter-spacing:-.05em; } h1 { font-size:clamp(92px, 18vw, 260px); max-width:900px; } h1 i { color:var(--orange); } h2 { font-size:clamp(56px, 8vw, 125px); } .hero-copy { max-width:400px; margin:42px 0 0 clamp(0px, 34vw, 520px); font-size:15px; line-height:1.65; } .hero-copy p+p { margin-top:15px; } .hero-cheese { width:230px; height:190px; position:absolute; right:8vw; bottom:9vw; clip-path:polygon(0 100%,100% 100%,44% 0); background:var(--cheese); transform:rotate(10deg); box-shadow:12px 12px 0 var(--orange); } .hero-cheese span { position:absolute; border-radius:50%; background:#e6a926; width:21px; height:21px; } .hero-cheese span:nth-child(1){left:92px;top:76px}.hero-cheese span:nth-child(2){left:135px;top:115px;width:14px;height:14px}.hero-cheese span:nth-child(3){left:70px;top:132px;width:12px;height:12px}.hero-cheese b{position:absolute;color:#ffe586;font-size:12px}.hero-cheese b:nth-of-type(1){left:122px;top:45px}.hero-cheese b:nth-of-type(2){left:99px;top:114px}.hero-cheese b:nth-of-type(3){left:152px;top:145px}
+.section { border-top:1px solid var(--line); } .intro-grid { display:grid; grid-template-columns:1.1fr .75fr; column-gap:8vw; row-gap:44px; } .body-copy { font-size:clamp(19px,2vw,29px); line-height:1.32; margin:0; } .known-for { grid-column:1/-1; display:flex; flex-wrap:wrap; gap:10px; } .known-for span { border:1px solid var(--ink); padding:12px 17px; border-radius:100px; font-size:14px; } .types-section { background:var(--ink); color:var(--cream); } .type-grid { margin-top:54px; display:grid; grid-template-columns:repeat(3,1fr); border-left:1px solid rgba(255,255,255,.3); border-top:1px solid rgba(255,255,255,.3); } .type-grid article { padding:28px; min-height:185px; border-right:1px solid rgba(255,255,255,.3); border-bottom:1px solid rgba(255,255,255,.3); } .type-grid b { color:var(--cheese); font:11px "DM Mono",monospace; } h3 { font-family:"DM Serif Display",serif; font-size:32px; margin:30px 0 8px; } .type-grid p { color:#d8cfc1; font-size:13px; margin:0; } .section-heading { display:flex; justify-content:space-between; align-items:end; gap:36px; } .chart-note { font-size:12px; line-height:1.6; margin:0 0 8px; } .country-chart { margin-top:70px; max-width:950px; } .country-row { display:grid; grid-template-columns:35px 150px 1fr 48px; align-items:center; gap:13px; padding:9px 0; border-bottom:1px solid var(--line); font-size:13px; } .country-rank, .country-row strong { font:12px "DM Mono",monospace; } .country-row strong { text-align:right; }.bar-track { height:13px; background:#eadfca; overflow:hidden; }.bar-fill { display:block; height:100%; background:var(--orange); }.country-row:nth-child(-n+3) .bar-fill { background:var(--cheese); }.source { margin:24px 0 0; color:#726961; font:10px "DM Mono",monospace; letter-spacing:.03em; }.source code { font-family:inherit; color:var(--orange); }.wheel-section { background:#f9f1e0; }.wheel-layout { display:grid; grid-template-columns:minmax(300px,560px) minmax(220px,360px); align-items:center; gap:8vw; margin-top:50px; }.wheel { width:100%; max-width:560px; overflow:visible; }.guide { fill:none; stroke:#dfcdb5; stroke-dasharray:3 5; }.guide-1 { stroke:#d4b898; }.cheese-slice { stroke:#fff7e8; stroke-width:2; fill:var(--cheese); }.slice-0 { fill:#e87527; }.slice-1 { fill:#f29f2d; }.slice-2,.slice-3 { fill:#f5ca5e; }.slice-4,.slice-5 { fill:#ecc07a; }.slice-6,.slice-7,.slice-8 { fill:#e8d0a4; }.cheese-hole { fill:#d47d26; opacity:.72; }.wheel-centre { fill:var(--ink); }.centre-small { fill:#f6dfae; font:10px "DM Mono",monospace; letter-spacing:.18em; }.centre-big { fill:#fff7e8; font:18px "DM Serif Display",serif; letter-spacing:.05em; }.wheel-label { fill:var(--ink); font:10px Manrope,sans-serif; font-weight:800; }.wheel-value { fill:#a06336; font:9px "DM Mono",monospace; }.wheel-insight { border-left:2px solid var(--orange); padding-left:25px; }.wheel-insight p { font:clamp(23px,2.6vw,38px)/1.12 "DM Serif Display",Georgia,serif; margin:15px 0 28px; }.wheel-insight small { font-size:12px; color:#70665c; line-height:1.5; } footer { border-top:1px solid var(--line); border-bottom:0; }
+@media(max-width:700px){.hero-section{min-height:680px}.hero-cheese{width:155px;height:128px;right:9vw;bottom:11vw}.hero-cheese span:nth-child(n),.hero-cheese b:nth-child(n){transform:scale(.65)}.hero-copy{margin-left:0}.intro-grid,.wheel-layout{grid-template-columns:1fr}.type-grid{grid-template-columns:repeat(2,1fr)}.section-heading{display:block}.chart-note{margin-top:24px}.country-row{grid-template-columns:27px 110px 1fr 35px;gap:7px;font-size:11px}.wheel-layout{margin-top:28px}.wheel-insight{margin-top:-10px} }
+
+/* Exact supplied Illustrator cover, rendered from COVER PAGE.ai. */
+.masthead, .hero-section { display: none; }
+.cover-page { position: relative; background: #fff7db; line-height: 0; overflow: hidden; }
+.cover-artwork { display: block; width: 100%; height: auto; }
+/* Mirrored/cropped copies use the supplied cheeses.svg rather than redrawing
+   the pieces, so both sides of the cover retain the Illustrator artwork. */
+.cover-cheeses-left { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.left-cheese { position: absolute; display: block; width: 38%; height: auto; transform: scaleX(-1); transform-origin: center; mix-blend-mode: multiply; }
+.left-cheese-top { left: -14%; top: 4%; clip-path: polygon(0 0, 100% 0, 100% 43%, 56% 55%, 0 47%); }
+.left-cheese-mid { left: -7%; top: 34%; width: 32%; clip-path: polygon(0 15%, 100% 0, 100% 52%, 61% 64%, 0 56%); }
+.left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
+
+/* Page sections use the cover's pale paper tone full-bleed. The bg-2 SVG has
+   an Illustrator crop inside its canvas, so it must be oversized or its edges
+   appear as a centered rectangle on wide screens. */
+.site-shell {
+  position: relative;
+  isolation: isolate;
+  background-color: #fff7db;
+  background-image: url("/art/bg-2.svg"), url("/art/bg-1.svg");
+  background-position: center top, center top;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 230% auto, 100% auto;
+  background-blend-mode: normal, normal;
+}
+.site-shell > .cover-page,
+.site-shell > .masthead,
+.site-shell > main,
+.site-shell > footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* The exact supplied SVGs are real image layers, not CSS approximations. */
+.page-background {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #fff7db;
+}
+.page-background img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-bg-one { z-index: 1; }
+.page-bg-two { z-index: 2; }
+.page-bg-texture { z-index: 3; }
+.site-shell .section,
+.site-shell footer {
+  background-color: #fff7db !important;
+  background-image: url("/art/bg-2.svg"), url("/art/bg-1.svg") !important;
+  background-position: center top, center top !important;
+  background-repeat: repeat-y, repeat-y !important;
+  background-size: 230% auto, 100% auto !important;
+  background-blend-mode: normal, normal;
+}
+.types-section { color: var(--ink); }
+.type-grid, .type-grid article { border-color: var(--line); }
+.type-grid b { color: #ff2875; }
+.type-grid p { color: #625850; }
+
+@media(max-width:700px){
+  .site-shell,
+  .site-shell .section,
+  .site-shell footer {
+    background-size: auto 230%, 100% auto !important;
+  }
+}
