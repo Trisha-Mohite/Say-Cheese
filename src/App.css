@@ -23,9 +23,10 @@
   isolation: isolate;
   background-color: #fff7db;
   background-image: url("/art/texture-bg.svg"), url("/art/bg-2.svg"), url("/art/bg-1.svg");
-  background-position: center top, center top, center top;
-  background-repeat: repeat-y, repeat-y, repeat-y;
-  background-size: 100% auto, 230% auto, 100% auto;
+  background-position: center center, center center, center center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover, cover, cover;
+  background-attachment: fixed, fixed, fixed;
   background-blend-mode: screen, normal, normal;
 }
 .site-shell > .cover-page,
@@ -76,6 +77,7 @@
 
 @media(max-width:700px){
   .site-shell {
-    background-size: auto 180%, auto 230%, 100% auto;
+    background-attachment: scroll, scroll, scroll;
+    background-size: auto 120vh, auto 120vh, cover;
   }
 }
