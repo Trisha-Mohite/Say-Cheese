@@ -81,3 +81,22 @@
     background-size: auto 120vh, auto 230vh, cover;
   }
 }
+
+/* Temporary layout guide: remove .design-grid when final composition is set. */
+.design-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-rows: repeat(30, minmax(0, 1fr));
+  pointer-events: none;
+  color: rgba(80, 80, 80, .42);
+  font: 10px/1 "DM Mono", monospace;
+}
+.design-grid__cell {
+  min-width: 0;
+  min-height: 0;
+  padding: 6px;
+  border: 1px solid rgba(90, 90, 90, .22);
+}

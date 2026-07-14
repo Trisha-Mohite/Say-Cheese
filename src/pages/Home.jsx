@@ -1,6 +1,7 @@
 import { cheeseData, countryData } from "../data/cleanedData";
 
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+const designGuideCells = Array.from({ length: 300 }, (_, index) => index + 1);
 
 function polar(cx, cy, radius, angle) {
   const radians = ((angle - 90) * Math.PI) / 180;
@@ -78,6 +79,11 @@ function Home() {
           <p className="source">VISUAL INPUT: <code>SQL/cheese_final_dataset.csv</code> · USDA ERS SOURCE SERIES · LB / PERSON / YEAR</p>
         </section>
       </main>
+      <div className="design-grid" aria-hidden="true">
+        {designGuideCells.map((cell) => (
+          <span className="design-grid__cell" key={cell}>{cell}</span>
+        ))}
+      </div>
       <footer><span>SAY CHEESE — 2026</span><span>Data visualisation mini project</span></footer>
     </div>
   );
