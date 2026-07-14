@@ -18,14 +18,14 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
-  left: 51.4%;
-  top: 49.4%;
-  z-index: 8;
-  width: 14%;
+  left: 36.8%;
+  top: 48.3%;
+  z-index: 40;
+  width: 30%;
   height: auto;
-  opacity: .9;
-  mix-blend-mode: multiply;
-  transform: rotate(-8deg);
+  opacity: .96;
+  mix-blend-mode: normal;
+  transform: rotate(-11deg);
   transform-origin: center;
   pointer-events: none;
 }
@@ -156,9 +156,9 @@
     font-size: clamp(18px, 5.6vw, 34px);
   }
   .hand-corner-cheese {
-    left: 49%;
-    top: 49%;
-    width: 19%;
+    left: 34%;
+    top: 48%;
+    width: 42%;
   }
 }
 
