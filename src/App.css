@@ -17,9 +17,7 @@
 .left-cheese-mid { left: -7%; top: 34%; width: 32%; clip-path: polygon(0 15%, 100% 0, 100% 52%, 61% 64%, 0 56%); }
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 
-/* Page sections use the cover's pale paper tone full-bleed. The bg-2 SVG has
-   an Illustrator crop inside its canvas, so it must be oversized or its edges
-   appear as a centered rectangle on wide screens. */
+/* Use one continuous cover-paper background across the whole story. */
 .site-shell {
   position: relative;
   isolation: isolate;
@@ -59,14 +57,17 @@
 .page-bg-one { z-index: 1; }
 .page-bg-two { z-index: 2; }
 .page-bg-texture { z-index: 3; }
+.site-shell main,
+.site-shell .section,
+.site-shell footer,
+.site-shell .intro-grid,
+.site-shell .types-section,
+.site-shell .wheel-section {
+  background: transparent !important;
+}
 .site-shell .section,
 .site-shell footer {
-  background-color: #fff7db !important;
-  background-image: url("/art/bg-2.svg"), url("/art/bg-1.svg") !important;
-  background-position: center top, center top !important;
-  background-repeat: repeat-y, repeat-y !important;
-  background-size: 230% auto, 100% auto !important;
-  background-blend-mode: normal, normal;
+  border-top: 0;
 }
 .types-section { color: var(--ink); }
 .type-grid, .type-grid article { border-color: var(--line); }
@@ -74,9 +75,7 @@
 .type-grid p { color: #625850; }
 
 @media(max-width:700px){
-  .site-shell,
-  .site-shell .section,
-  .site-shell footer {
-    background-size: auto 230%, 100% auto !important;
+  .site-shell {
+    background-size: auto 230%, 100% auto;
   }
 }
