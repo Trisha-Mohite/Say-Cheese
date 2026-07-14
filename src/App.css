@@ -8,7 +8,7 @@
 /* Exact supplied Illustrator cover, rendered from COVER PAGE.ai. */
 .masthead, .hero-section { display: none; }
 .cover-page { position: relative; background: #fff7db; line-height: 0; overflow: hidden; }
-.cover-artwork { display: block; width: 100%; height: auto; }
+.cover-artwork { position: relative; z-index: 1; display: block; width: 100%; height: auto; }
 /* Mirrored/cropped copies use the supplied cheeses.svg rather than redrawing
    the pieces, so both sides of the cover retain the Illustrator artwork. */
 .cover-cheeses-left { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
@@ -18,14 +18,14 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
-  left: 55.2%;
-  top: 55.6%;
-  z-index: 3;
-  width: 10.5%;
+  left: 51.4%;
+  top: 49.4%;
+  z-index: 8;
+  width: 14%;
   height: auto;
-  opacity: .72;
+  opacity: .9;
   mix-blend-mode: multiply;
-  transform: rotate(-12deg);
+  transform: rotate(-8deg);
   transform-origin: center;
   pointer-events: none;
 }
@@ -156,9 +156,9 @@
     font-size: clamp(18px, 5.6vw, 34px);
   }
   .hand-corner-cheese {
-    left: 52%;
-    top: 55%;
-    width: 15%;
+    left: 49%;
+    top: 49%;
+    width: 19%;
   }
 }
 
