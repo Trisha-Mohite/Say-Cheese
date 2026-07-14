@@ -22,11 +22,11 @@
   position: relative;
   isolation: isolate;
   background-color: #fff7db;
-  background-image: url("/art/bg-2.svg"), url("/art/bg-1.svg");
-  background-position: center top, center top;
-  background-repeat: repeat-y, repeat-y;
-  background-size: 230% auto, 100% auto;
-  background-blend-mode: normal, normal;
+  background-image: url("/art/texture-bg.svg"), url("/art/bg-2.svg"), url("/art/bg-1.svg");
+  background-position: center top, center top, center top;
+  background-repeat: repeat-y, repeat-y, repeat-y;
+  background-size: 100% auto, 230% auto, 100% auto;
+  background-blend-mode: screen, normal, normal;
 }
 .site-shell > .cover-page,
 .site-shell > .masthead,
@@ -76,6 +76,6 @@
 
 @media(max-width:700px){
   .site-shell {
-    background-size: auto 230%, 100% auto;
+    background-size: auto 180%, auto 230%, 100% auto;
   }
 }
