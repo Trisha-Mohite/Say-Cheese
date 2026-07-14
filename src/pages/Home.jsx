@@ -44,6 +44,13 @@ function Home() {
           <img className="left-cheese left-cheese-mid" src="./art/cheeses.svg" alt="" />
           <img className="left-cheese left-cheese-bottom" src="./art/cheeses.svg" alt="" />
         </div>
+        <div className="cover-opening-statement">
+          <p>Everyone says it before a photo.</p>
+          <p>Eat it without a second thought.</p>
+          <p>It's on almost every plate on earth.</p>
+          <p>39.9 pounds a year, per person, and counting.</p>
+          <p>This is <span>cheese</span> mapped, sliced, and visualized.</p>
+        </div>
       </section>
       <header className="masthead"><span>AN EDITORIAL DATA STORY</span><span>2026</span></header>
       <main>
