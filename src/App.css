@@ -18,15 +18,15 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
-  left: 48.7%;
-  top: 43.8%;
+  left: 39.8%;
+  top: 34.8%;
   z-index: 40;
-  width: 10.2%;
+  width: 18%;
   aspect-ratio: 1.1;
   overflow: hidden;
-  opacity: .78;
+  opacity: .9;
   mix-blend-mode: multiply;
-  transform: rotate(-8deg);
+  transform: rotate(-7deg);
   transform-origin: center;
   pointer-events: none;
 }
@@ -40,7 +40,7 @@
   background: url("/art/single-cheese.svg") no-repeat;
   background-position: 23% 7%;
   background-size: 100% auto;
-  filter: saturate(.86) hue-rotate(-8deg) brightness(1.08);
+  filter: saturate(1.18) hue-rotate(-8deg) brightness(1.02);
 }
 .cover-opening-statement {
   position: absolute;
@@ -169,9 +169,9 @@
     font-size: clamp(18px, 5.6vw, 34px);
   }
   .hand-corner-cheese {
-    left: 47%;
-    top: 43%;
-    width: 14%;
+    left: 38%;
+    top: 34%;
+    width: 24%;
   }
 }
 
