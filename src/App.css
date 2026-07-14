@@ -25,7 +25,7 @@
   background-image: url("/art/texture-bg.svg"), url("/art/bg-2.svg"), url("/art/bg-1.svg");
   background-position: center center, center center, center center;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: cover, cover, cover;
+  background-size: cover, 230vw auto, cover;
   background-attachment: fixed, fixed, fixed;
   background-blend-mode: screen, normal, normal;
 }
@@ -78,6 +78,6 @@
 @media(max-width:700px){
   .site-shell {
     background-attachment: scroll, scroll, scroll;
-    background-size: auto 120vh, auto 120vh, cover;
+    background-size: auto 120vh, auto 230vh, cover;
   }
 }
