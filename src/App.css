@@ -18,22 +18,23 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .cover-opening-statement {
   position: absolute;
-  left: 23%;
-  top: 55%;
+  left: 6%;
+  top: 48%;
   z-index: 4;
-  width: 58%;
+  width: 88%;
   text-align: center;
-  color: #b9252d;
+  color: #ff2875;
   font-family: Manrope, Arial, sans-serif;
-  font-size: clamp(24px, 3.9vw, 70px);
+  font-size: clamp(22px, 3.25vw, 58px);
   font-weight: 800;
   line-height: 1.12;
 }
 .cover-opening-statement p {
   margin: 0;
+  white-space: nowrap;
 }
 .cover-opening-statement span {
-  color: #ff2875;
+  color: #f6bf3f;
   font-family: "DM Serif Display", Georgia, serif;
   font-style: italic;
   font-weight: 400;
@@ -136,10 +137,10 @@
     font-size: clamp(28px, 10vw, 48px);
   }
   .cover-opening-statement {
-    left: 12%;
-    top: 54%;
-    width: 76%;
-    font-size: clamp(22px, 7vw, 42px);
+    left: 5%;
+    top: 48%;
+    width: 90%;
+    font-size: clamp(18px, 5.6vw, 34px);
   }
 }
 
