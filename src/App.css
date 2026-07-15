@@ -40,7 +40,7 @@
   background: url("/art/single-cheese.svg") no-repeat;
   background-position: 23% 7%;
   background-size: 100% auto;
-  filter: sepia(.45) saturate(2.2) hue-rotate(348deg) brightness(.94) contrast(1.08);
+  filter: sepia(.62) saturate(1.35) hue-rotate(342deg) brightness(.76) contrast(.96);
 }
 .cover-opening-statement {
   position: absolute;
