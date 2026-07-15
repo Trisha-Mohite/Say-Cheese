@@ -21,26 +21,17 @@
   left: 39.8%;
   top: 36%;
   z-index: 60;
-  width: 18%;
-  aspect-ratio: 1.1;
-  overflow: hidden;
+  width: 15%;
+  aspect-ratio: .69;
   opacity: 1;
   mix-blend-mode: normal;
   transform: rotate(-7deg);
   transform-origin: center;
   pointer-events: none;
+  background: url("/art/hand-corner-cheese.png") center / contain no-repeat;
 }
 .hand-corner-cheese::before {
-  content: "";
-  position: absolute;
-  left: -78%;
-  top: -16%;
-  width: 330%;
-  height: 330%;
-  background: url("/art/single-cheese.svg") no-repeat;
-  background-position: 23% 7%;
-  background-size: 100% auto;
-  filter: sepia(.62) saturate(1.35) hue-rotate(342deg) brightness(.76) contrast(.96);
+  content: none;
 }
 .cover-opening-statement {
   position: absolute;
@@ -171,7 +162,7 @@
   .hand-corner-cheese {
     left: 38%;
     top: 35.2%;
-    width: 24%;
+    width: 21%;
   }
 }
 
