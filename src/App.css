@@ -19,7 +19,7 @@
 .hand-corner-cheese {
   position: absolute;
   left: 39.8%;
-  top: 34.8%;
+  top: 36%;
   z-index: 60;
   width: 18%;
   aspect-ratio: 1.1;
@@ -40,7 +40,7 @@
   background: url("/art/single-cheese.svg") no-repeat;
   background-position: 23% 7%;
   background-size: 100% auto;
-  filter: saturate(1.28) hue-rotate(-7deg) brightness(1.08);
+  filter: sepia(.45) saturate(2.2) hue-rotate(348deg) brightness(.94) contrast(1.08);
 }
 .cover-opening-statement {
   position: absolute;
@@ -170,7 +170,7 @@
   }
   .hand-corner-cheese {
     left: 38%;
-    top: 34%;
+    top: 35.2%;
     width: 24%;
   }
 }
