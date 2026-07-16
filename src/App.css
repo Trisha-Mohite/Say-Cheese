@@ -18,8 +18,8 @@
 .left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
-  left: 39.8%;
-  top: 36%;
+  left: 42.4%;
+  top: 32.6%;
   z-index: 60;
   width: 15%;
   aspect-ratio: .69;
@@ -160,8 +160,8 @@
     font-size: clamp(18px, 5.6vw, 34px);
   }
   .hand-corner-cheese {
-    left: 38%;
-    top: 35.2%;
+    left: 41%;
+    top: 32%;
     width: 21%;
   }
 }
