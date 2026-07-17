@@ -57,6 +57,20 @@
   font-weight: 400;
   font-size: 1.15em;
 }
+.cover-known-header {
+  position: absolute;
+  left: 9%;
+  top: 66%;
+  z-index: 4;
+  max-width: 58%;
+  text-align: left;
+}
+.cover-known-header .eyebrow {
+  margin-bottom: 16px;
+}
+.cover-known-header h2 {
+  font-size: clamp(58px, 8.8vw, 142px);
+}
 
 /* Use one continuous cover-paper background across the whole story. */
 .site-shell {
@@ -158,6 +172,14 @@
     top: 48%;
     width: 90%;
     font-size: clamp(18px, 5.6vw, 34px);
+  }
+  .cover-known-header {
+    left: 8%;
+    top: 69%;
+    max-width: 86%;
+  }
+  .cover-known-header h2 {
+    font-size: clamp(44px, 15vw, 78px);
   }
   .hand-corner-cheese {
     left: 41%;

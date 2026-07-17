@@ -52,6 +52,10 @@ function Home() {
           <p>39.9 pounds a year, per person, and counting.</p>
           <p>This is <span>cheese</span> mapped, sliced, and visualized.</p>
         </div>
+        <div className="cover-known-header">
+          <p className="eyebrow">01 - the familiar</p>
+          <h2>WE KNOW<br />CHEESE FOR</h2>
+        </div>
       </section>
       <header className="masthead"><span>AN EDITORIAL DATA STORY</span><span>2026</span></header>
       <main>
