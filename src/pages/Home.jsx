@@ -54,6 +54,12 @@ function Home() {
           <p className="eyebrow">01 - the familiar</p>
           <h2>WE KNOW<br />CHEESE FOR</h2>
         </div>
+        <div className="known-cheese-collage" aria-label="Examples of cheese foods">
+          <img className="known-cheese known-cheese-pizza" src="./art/known-pizza.png" alt="Cheese pull pizza slice" />
+          <img className="known-cheese known-cheese-mac" src="./art/known-mac-cheese.png" alt="Mac and cheese" />
+          <img className="known-cheese known-cheese-wine" src="./art/known-wine-cheese.png" alt="Cheese with wine" />
+          <img className="known-cheese known-cheese-fondue" src="./art/known-fondue.png" alt="Cheese fondue" />
+        </div>
       </section>
       <header className="masthead"><span>AN EDITORIAL DATA STORY</span><span>2026</span></header>
       <main>

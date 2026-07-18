@@ -78,6 +78,45 @@
 .cover-known-header h2 {
   font-size: clamp(58px, 8.8vw, 142px);
 }
+.known-cheese-collage {
+  position: absolute;
+  left: 8%;
+  top: 81%;
+  z-index: 5;
+  width: 84%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(14px, 2.2vw, 38px);
+  line-height: normal;
+  pointer-events: none;
+}
+.known-cheese {
+  display: block;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 14px rgba(39, 32, 28, .12));
+}
+.known-cheese-pizza {
+  width: 23%;
+  margin-top: 4.2%;
+  transform: rotate(-7deg);
+}
+.known-cheese-mac {
+  width: 20%;
+  margin-top: 0;
+  transform: rotate(5deg);
+}
+.known-cheese-wine {
+  width: 18%;
+  margin-top: 5.6%;
+  transform: rotate(-3deg);
+}
+.known-cheese-fondue {
+  width: 22%;
+  margin-top: 1.8%;
+  transform: rotate(7deg);
+}
 
 /* Use one continuous cover-paper background across the whole story. */
 .site-shell {
@@ -188,6 +227,16 @@
   .cover-known-header h2 {
     font-size: clamp(44px, 15vw, 78px);
   }
+  .known-cheese-collage {
+    left: 6%;
+    top: 83%;
+    width: 88%;
+    gap: 8px;
+  }
+  .known-cheese-pizza { width: 27%; }
+  .known-cheese-mac { width: 24%; }
+  .known-cheese-wine { width: 22%; }
+  .known-cheese-fondue { width: 25%; }
   .hand-corner-cheese {
     left: 41%;
     top: 32%;
