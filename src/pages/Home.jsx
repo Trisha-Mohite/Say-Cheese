@@ -41,7 +41,9 @@ function Home() {
         <img className="cover-artwork" src="./art/cover-page.png" alt="SAY CHEESE cover artwork showing a dramatic cheese pull, pink title and floating cheese illustrations" />
         <div className="cover-cheeses-left" aria-hidden="true">
           <img className="left-cheese left-cheese-top" src="./art/cheeses.svg" alt="" />
+          <img className="left-cheese left-cheese-small" src="./art/cheeses.svg" alt="" />
           <img className="left-cheese left-cheese-mid" src="./art/cheeses.svg" alt="" />
+          <img className="left-cheese left-cheese-crumb" src="./art/cheeses.svg" alt="" />
           <img className="left-cheese left-cheese-bottom" src="./art/cheeses.svg" alt="" />
         </div>
         <span className="hand-corner-cheese" aria-hidden="true" />

@@ -11,11 +11,13 @@
 .cover-artwork { position: relative; z-index: 1; display: block; width: 100%; height: auto; }
 /* Mirrored/cropped copies use the supplied cheeses.svg rather than redrawing
    the pieces, so both sides of the cover retain the Illustrator artwork. */
-.cover-cheeses-left { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-.left-cheese { position: absolute; display: block; width: 38%; height: auto; transform: scaleX(-1); transform-origin: center; mix-blend-mode: multiply; }
-.left-cheese-top { left: -14%; top: 4%; clip-path: polygon(0 0, 100% 0, 100% 43%, 56% 55%, 0 47%); }
-.left-cheese-mid { left: -7%; top: 34%; width: 32%; clip-path: polygon(0 15%, 100% 0, 100% 52%, 61% 64%, 0 56%); }
-.left-cheese-bottom { left: -12%; top: 65%; width: 35%; clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
+.cover-cheeses-left { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.left-cheese { position: absolute; display: block; width: 31%; height: auto; transform: scaleX(-1) rotate(-8deg); transform-origin: center; opacity: .62; mix-blend-mode: multiply; }
+.left-cheese-top { left: -8%; top: 2%; width: 28%; clip-path: polygon(0 0, 100% 0, 100% 43%, 56% 55%, 0 47%); }
+.left-cheese-small { left: 7%; top: 7%; width: 20%; transform: scaleX(-1) rotate(11deg); clip-path: polygon(0 13%, 78% 0, 100% 54%, 48% 70%, 0 54%); opacity: .5; }
+.left-cheese-mid { left: 4%; top: 26%; width: 25%; transform: scaleX(-1) rotate(6deg); clip-path: polygon(0 15%, 100% 0, 100% 52%, 61% 64%, 0 56%); }
+.left-cheese-crumb { left: 20%; top: 34%; width: 17%; transform: scaleX(-1) rotate(-18deg); clip-path: polygon(0 18%, 92% 0, 100% 62%, 54% 77%, 0 58%); opacity: .48; }
+.left-cheese-bottom { left: -6%; top: 48%; width: 27%; transform: scaleX(-1) rotate(14deg); clip-path: polygon(0 16%, 100% 4%, 100% 48%, 67% 63%, 0 54%); }
 .hand-corner-cheese {
   position: absolute;
   left: 42.4%;
