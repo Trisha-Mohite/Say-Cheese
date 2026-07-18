@@ -14,11 +14,11 @@
 .cover-cheeses-left { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; mix-blend-mode: multiply; }
 .left-cheese-map {
   position: absolute;
-  inset: 0;
+  left: -5%;
+  top: 0;
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 64%;
+  height: auto;
   opacity: .72;
   transform: scaleX(-1);
   transform-origin: center;
