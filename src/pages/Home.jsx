@@ -55,13 +55,14 @@ function Home() {
           <h2>WE KNOW<br />CHEESE FOR</h2>
         </div>
         <div className="known-cheese-collage" aria-label="Examples of cheese foods">
-          <img className="known-cheese known-cheese-pizza" src="./art/known-pizza.png" alt="Cheese pull pizza slice" />
+          <img className="known-cheese known-cheese-pizza" src="./art/known-pizza-no-cuts.png" alt="Cheese pull pizza" />
           <img className="known-cheese known-cheese-garlic" src="./art/known-garlic-cheese.png" alt="Cheesy garlic bread" />
           <img className="known-cheese known-cheese-mac" src="./art/known-mac-cheese.png" alt="Mac and cheese" />
-          <img className="known-cheese known-cheese-lasagna" src="./art/known-lasagna.png" alt="Cheesy lasagna" />
+          <img className="known-cheese known-cheese-lasagna" src="./art/known-lasagna-no-cuts.png" alt="Cheesy lasagna" />
           <img className="known-cheese known-cheese-wine" src="./art/known-wine-cheese.png" alt="Cheese with wine" />
+          <img className="known-cheese known-cheese-melted" src="./art/known-melted-cheese.png" alt="Melted cheese wheel" />
           <img className="known-cheese known-cheese-burger" src="./art/known-burger.png" alt="Cheeseburger" />
-          <img className="known-cheese known-cheese-fondue" src="./art/known-fondue.png" alt="Cheese fondue" />
+          <img className="known-cheese known-cheese-fondue" src="./art/known-fondue-no-cut.png" alt="Cheese fondue" />
           <img className="known-cheese known-cheese-cheesecake" src="./art/known-cheesecake.png" alt="Cheesecake" />
           <img className="known-cheese known-cheese-nachos" src="./art/known-nachos.png" alt="Cheesy nachos" />
         </div>
