@@ -101,6 +101,8 @@
   width: 23%;
   margin-top: 4.2%;
   transform: rotate(-7deg);
+  -webkit-mask-image: radial-gradient(ellipse 82% 90% at 52% 50%, #000 72%, rgba(0, 0, 0, .78) 84%, transparent 100%);
+  mask-image: radial-gradient(ellipse 82% 90% at 52% 50%, #000 72%, rgba(0, 0, 0, .78) 84%, transparent 100%);
 }
 .known-cheese-mac {
   width: 20%;
@@ -116,6 +118,8 @@
   width: 22%;
   margin-top: 1.8%;
   transform: rotate(7deg);
+  -webkit-mask-image: radial-gradient(ellipse 82% 92% at 47% 49%, #000 74%, rgba(0, 0, 0, .78) 86%, transparent 100%);
+  mask-image: radial-gradient(ellipse 82% 92% at 47% 49%, #000 74%, rgba(0, 0, 0, .78) 86%, transparent 100%);
 }
 
 /* Use one continuous cover-paper background across the whole story. */
