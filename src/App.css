@@ -98,61 +98,61 @@
 .known-cheese-pizza {
   left: 0;
   top: 22%;
-  width: 16%;
+  width: 18%;
   transform: rotate(-7deg);
 }
 .known-cheese-garlic {
-  left: 10%;
+  left: 12%;
   top: 0;
-  width: 14%;
+  width: 16%;
   transform: rotate(5deg);
 }
 .known-cheese-mac {
-  left: 20%;
+  left: 25%;
   top: 18%;
-  width: 14%;
+  width: 16%;
   transform: rotate(5deg);
 }
 .known-cheese-lasagna {
-  left: 32%;
+  left: 38%;
   top: 2%;
-  width: 13%;
+  width: 15%;
   transform: rotate(-4deg);
 }
 .known-cheese-wine {
-  left: 43%;
+  left: 50%;
   top: 24%;
-  width: 12%;
+  width: 13%;
   transform: rotate(-3deg);
 }
 .known-cheese-melted {
-  left: 52%;
+  left: 58%;
   top: -4%;
-  width: 12%;
+  width: 14%;
   transform: rotate(6deg);
 }
 .known-cheese-burger {
-  left: 61%;
+  left: 70%;
   top: 6%;
-  width: 12%;
+  width: 14%;
   transform: rotate(4deg);
 }
 .known-cheese-fondue {
-  left: 69%;
+  left: 78%;
   top: 22%;
-  width: 14%;
+  width: 16%;
   transform: rotate(7deg);
 }
 .known-cheese-cheesecake {
-  left: 79%;
+  left: 88%;
   top: 0;
-  width: 13%;
+  width: 15%;
   transform: rotate(-5deg);
 }
 .known-cheese-nachos {
-  left: 88%;
-  top: 17%;
-  width: 13%;
+  left: 96%;
+  top: 28%;
+  width: 15%;
   transform: rotate(6deg);
 }
 
@@ -271,16 +271,16 @@
     width: 88%;
     height: 24%;
   }
-  .known-cheese-pizza { width: 22%; }
-  .known-cheese-garlic { left: 12%; width: 19%; }
-  .known-cheese-mac { left: 25%; width: 18%; }
-  .known-cheese-lasagna { left: 39%; width: 17%; }
-  .known-cheese-wine { left: 51%; width: 16%; }
-  .known-cheese-melted { left: 60%; width: 16%; }
-  .known-cheese-burger { left: 69%; width: 15%; }
-  .known-cheese-fondue { left: 77%; width: 18%; }
-  .known-cheese-cheesecake { left: 84%; width: 16%; }
-  .known-cheese-nachos { left: 91%; width: 17%; }
+  .known-cheese-pizza { width: 24%; }
+  .known-cheese-garlic { left: 16%; width: 20%; }
+  .known-cheese-mac { left: 31%; width: 20%; }
+  .known-cheese-lasagna { left: 47%; width: 18%; }
+  .known-cheese-wine { left: 60%; width: 16%; }
+  .known-cheese-melted { left: 72%; width: 17%; }
+  .known-cheese-burger { left: 83%; width: 16%; }
+  .known-cheese-fondue { left: 94%; width: 19%; }
+  .known-cheese-cheesecake { left: 103%; width: 17%; }
+  .known-cheese-nachos { left: 112%; width: 18%; }
   .hand-corner-cheese {
     left: 41%;
     top: 32%;
