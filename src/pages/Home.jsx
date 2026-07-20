@@ -52,7 +52,7 @@ function Home() {
         </div>
         <div className="known-cheese-collage" aria-label="Examples of cheese foods">
           <svg className="known-wave-title" viewBox="0 0 1200 260" aria-hidden="true">
-            <path id="known-title-wave" d="M 32 142 C 188 80 326 196 478 132 S 760 82 924 138 S 1096 178 1170 112" />
+            <path id="known-title-wave" d="M 36 112 C 174 54 292 172 430 124 S 674 72 812 120 S 1052 176 1164 102" />
             <text>
               <textPath href="#known-title-wave" startOffset="4%">WE KNOW CHEESE FOR</textPath>
             </text>
