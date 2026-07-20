@@ -55,6 +55,12 @@ function Home() {
           <h2>WE KNOW<br />CHEESE FOR</h2>
         </div>
         <div className="known-cheese-collage" aria-label="Examples of cheese foods">
+          <svg className="known-wave-title" viewBox="0 0 1200 260" aria-hidden="true">
+            <path id="known-title-wave" d="M 32 154 C 184 52 318 222 470 118 S 756 86 914 154 S 1108 206 1170 96" />
+            <text>
+              <textPath href="#known-title-wave" startOffset="4%">WE KNOW CHEESE FOR</textPath>
+            </text>
+          </svg>
           <img className="known-cheese known-cheese-pizza" src="./art/known-pizza-no-cuts.png" alt="Cheese pull pizza" />
           <img className="known-cheese known-cheese-garlic" src="./art/known-garlic-cheese.png" alt="Cheesy garlic bread" />
           <img className="known-cheese known-cheese-mac" src="./art/known-mac-cheese.png" alt="Mac and cheese" />
