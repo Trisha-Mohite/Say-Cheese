@@ -50,13 +50,9 @@ function Home() {
           <p>39.9 pounds a year, per person, and counting.</p>
           <p>This is <span>cheese</span> mapped, sliced, and visualized.</p>
         </div>
-        <div className="cover-known-header">
-          <p className="eyebrow">01 - the familiar</p>
-          <h2>WE KNOW<br />CHEESE FOR</h2>
-        </div>
         <div className="known-cheese-collage" aria-label="Examples of cheese foods">
           <svg className="known-wave-title" viewBox="0 0 1200 260" aria-hidden="true">
-            <path id="known-title-wave" d="M 32 154 C 184 52 318 222 470 118 S 756 86 914 154 S 1108 206 1170 96" />
+            <path id="known-title-wave" d="M 32 142 C 188 80 326 196 478 132 S 760 82 924 138 S 1096 178 1170 112" />
             <text>
               <textPath href="#known-title-wave" startOffset="4%">WE KNOW CHEESE FOR</textPath>
             </text>

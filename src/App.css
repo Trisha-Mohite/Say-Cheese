@@ -64,27 +64,13 @@
   font-weight: 400;
   font-size: 1.15em;
 }
-.cover-known-header {
-  position: absolute;
-  left: 9%;
-  top: 66%;
-  z-index: 4;
-  max-width: 58%;
-  text-align: left;
-}
-.cover-known-header .eyebrow {
-  margin-bottom: 16px;
-}
-.cover-known-header h2 {
-  font-size: clamp(58px, 8.8vw, 142px);
-}
 .known-cheese-collage {
   position: absolute;
   left: 5%;
-  top: 79%;
+  top: 68%;
   z-index: 5;
   width: 90%;
-  height: 28%;
+  height: 36%;
   line-height: normal;
   pointer-events: none;
 }
@@ -98,10 +84,10 @@
 .known-wave-title {
   position: absolute;
   left: 2%;
-  top: 16%;
+  top: 24%;
   z-index: 0;
   width: 96%;
-  height: 76%;
+  height: 58%;
   overflow: visible;
 }
 .known-wave-title path {
@@ -110,7 +96,7 @@
 .known-wave-title text {
   fill: rgba(39, 32, 28, .9);
   font-family: "DM Serif Display", Georgia, serif;
-  font-size: 102px;
+  font-size: 84px;
   letter-spacing: 0;
 }
 .known-cheese {
@@ -278,28 +264,20 @@
     width: 90%;
     font-size: clamp(18px, 5.6vw, 34px);
   }
-  .cover-known-header {
-    left: 8%;
-    top: 69%;
-    max-width: 86%;
-  }
-  .cover-known-header h2 {
-    font-size: clamp(44px, 15vw, 78px);
-  }
   .known-cheese-collage {
     left: 4%;
-    top: 83%;
+    top: 70%;
     width: 92%;
-    height: 24%;
+    height: 32%;
   }
   .known-wave-title {
     left: 0;
-    top: 18%;
+    top: 26%;
     width: 100%;
-    height: 72%;
+    height: 56%;
   }
   .known-wave-title text {
-    font-size: 72px;
+    font-size: 58px;
   }
   .known-cheese-pizza { width: 22%; }
   .known-cheese-garlic { left: 15%; width: 18%; }
