@@ -54,7 +54,7 @@ function Home() {
           <svg className="known-wave-title" viewBox="0 0 1200 260" aria-hidden="true">
             <path id="known-title-wave" d="M 34 116 C 176 78 292 142 426 112 S 662 84 810 114 S 1026 150 1166 108" />
             <text>
-              <textPath href="#known-title-wave" startOffset="4%">WE KNOW CHEESE FOR</textPath>
+              <textPath href="#known-title-wave" startOffset="15%">WE KNOW CHEESE FOR</textPath>
             </text>
           </svg>
           <img className="known-cheese known-cheese-pizza" src="./art/known-pizza-no-cuts.png" alt="Cheese pull pizza" />
